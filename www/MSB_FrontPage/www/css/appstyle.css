@@ -1,0 +1,63 @@
+/* Ref:  http://www.w3schools.com/css/css_syntax.asp */
+html {
+	background-color:black;
+	height: 100%;	
+}
+
+body
+{
+	background-color:black;
+	color:white;
+	height: 100%;
+	font-size: 120%;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+}
+
+
+#mbs {
+	color: white;
+	/* http://www.w3schools.com/cssref/css_websafe_fonts.asp */
+	font-family: Verdana, Geneva, sans-serif;
+	text-align: center;
+	font-size: 70%;
+}
+
+#note {
+	color: color: #AAAAAA;;
+	/* http://www.w3schools.com/cssref/css_websafe_fonts.asp */
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 70%;
+}
+
+#HofTimg {
+	display: block;
+	width: 50%;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+
+#launchButton {
+	font-size: 150%;
+  	-moz-border-radius:10px;
+  	-webkit-border-radius:10px;	
+  	border-radius:10px;
+}
+
+#buttonCaption{
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 150%;
+}
+
+#SecondDiv {
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 150%;
+
+}
+

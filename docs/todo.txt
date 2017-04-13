@@ -1,0 +1,57 @@
+
+	Use ASW/redirect to point to different node server applications so users don't need to use port numbers
+
+
+-------
+Make code easy to switch between requireing a specific conductor and/or entering ID information
+
+----------
+Make conductor code easy to switch between 
+	timer based and manual control
+----------
+
+Add configuration sliders (from Ame2)
+
+----------
+
+
+Make sure iOS stuff is built in.
+    (don't accept keyboard RETURN from startup.config)
+
+------------
+
+Clean up COMS utility.
+
+-------------
+
+Get bird sounds from chinmay
+
+--------------
+
+
+BROWSER ISSUES
+	Prevent
+		Orientation rotation
+		Display sleeping
+		Incoming calls/msgs notificatons
+
+-------------
+
+
+
+DONE ==============================================================
+
+Get "chat room" server written generically 
+	apps can use any msgs they want without changes to the server
+	(from Kadenza code)
+
+-----
+
+Name the special room member "conductor"
+
+-----
+
+Get new server set up on Digital Ocean (in the US): asound.com
+
+------
+

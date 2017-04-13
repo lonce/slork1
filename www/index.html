@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/configDialog.css">  
+        <link rel="stylesheet" type="text/css" href="css/personal.css"> 
+         <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,user-scalable=no">   
+        <title>Title</title>
+        <meta name="description" content="action messaging">
+        <script type="text/javascript" data-main="appscripts/personal_Main.js" src="jslibs/require.js"></script>
+    </head>
+    <body id="body">
+    <div id="wrap">
+        <input type="text" id="msg"  value="Hello world" hidden> 
+        <div id="block0" hidden >
+
+            <input type="button" id="wakeButton" value="Keep me awake!"><br>
+                <span id="timeLabelDiv" >
+                    Time:  
+                </span>
+                <span id="timeDisplayDiv" >
+                   Time 
+                </span>
+        </div>
+
+        <div id="datadiv" hidden>
+            y-angle: <input type="text" id="ty" name="y-tilt" value="1"><br>
+            roll: <input type="text" id="troll" name="roll" value="2"><br><br>
+       </div>
+        <div id="draw_area">
+            <svg  id="svg_area" >
+            </svg>
+        </div>
+    </div>
+
+    </body>
+</html>
+

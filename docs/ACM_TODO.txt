@@ -1,0 +1,36 @@
+TODO
+
++++++++++++++++++++++
+Prepare for installation:
+   Get rid of unnecessary alerts
+    auto click
+    settle interface / display for personals
+
++++++++++++++++++++++++
+
+Turn off all sound if phase > 1.1 (somebody's phone went to sleep!)
+
+
+removie performance time and replace it by date time - to see if it works on iphone.
+Also test if sounds are lodaed before being referenced in the personal player for the iphone. 
+
+
+
+
+Press load and wait! =- on sounds that set the URL as a parameter.
+
+Could load URLS hardcoded in the sounds, and not begin accepting messages from the server until all sounds are loaded.....
+
+
+SCHEDULE
+
+
+Wed Oct 22nd.
+
+Thursday: 
+
+Sat 10/25 work with stefano on platform
+Sun 10/26 make poster  (write WAC paper)
+
+
+Monday 27th, CLASS TEST

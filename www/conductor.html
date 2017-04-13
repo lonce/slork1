@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <link rel="stylesheet" type="text/css" href="css/configDialog.css">  
+     <link rel="stylesheet" type="text/css" href="css/gallery.css"> 
+     <!-- <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1.0,user-scalable=no"> -->
+     <meta name="viewport" content="initial-scale=1,maximum-scale=1.0,minimum-scale=1.0">
+     <script type="text/javascript" data-main="appscripts/main_Conductor.js" src="jslibs/require.js"></script>
+
+  </head>
+<body>
+
+<div id="wrap">
+
+	<div id="block0" >
+        <div id="block0a">
+        </div>
+        <div id="block0b">
+		  <h3 style="margin-bottom:0; ">"Diffusion #1 for n+1 Devices</h3>
+        </div>
+        <div id="block0c" >
+                <span id="timeLabelDiv" >
+                    Time:  
+                </span>
+                <span id="timeDisplayDiv" >
+                   Time 
+                </span>
+        </div>
+	</div>
+
+    <div id="draw_area">
+        <svg  id="svg_area" >
+        </svg>
+    </div>
+
+   <div datadiv>
+        Manual <input type="radio" name="controlMode" id="control.manual" value="manual">
+        Automatic <input type="radio" name="controlMode" id="control.automatic"value="automatic">
+        <input type="button" id="allOffButt" value="All Off">
+        Participants<input type="text" id="participants"  value="Hello world"><br>
+        Gain <input type="range" id="gainID" step="1" min="0" max="10">
+        Density <input type="range" id="densityID" step="1" min="0" max="10">
+  </div>
+
+	<div id="footer" align="center"> 
+        <a href="http://anclab.org/software/software.html"> http://anclab.org/software/software.html</a> <br />
+	</div>
+</div>
+</body>
+</html>

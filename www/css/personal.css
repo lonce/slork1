@@ -1,0 +1,78 @@
+html{
+     background-color: black;
+     color: black;
+     width: 100%;
+     height: 100%;
+}
+body{
+     background-color: black;
+     color: black;
+     width: 100%;
+     height: 100%;
+
+     -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+#wrap {
+      width: 100%;
+      height: 100%;
+      background-color: black;
+}
+
+
+#block0{
+     width:100%;
+     height:20%;
+     background-color:magenta;
+} 
+
+#datadiv{
+     width:100%;
+     height:20%;
+     background-color:magenta;
+} 
+
+#draw_area{
+     width:80%;
+     height:80%;
+     margin: auto;
+     margin-top: 10%;
+}   
+
+#svg_area{
+     width: 100%;
+     height: 100%;
+
+     border-style:solid; 
+     border-width:1px; 
+     border-color:blue; 
+}
+
+#playButtonDiv{
+     text-align: center;
+     margin: auto;
+     margin-top: 10%;
+}
+
+#playButton{
+}
+
+#wakereminder{
+     color: white;
+     margin-left: auto;
+     margin-bottom: 0px;
+     height:5%;
+}
+
+
+
+#wakeButton{
+     float: right;
+}
+

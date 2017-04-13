@@ -1,0 +1,11 @@
+*~
+*.swp
+*.lnk
+*.link
+RUN_Diffusion*
+node_modules
+*.sfk
+
+
+
+
