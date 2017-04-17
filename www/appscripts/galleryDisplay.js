@@ -167,7 +167,6 @@ define(
 		//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
     	var makePhaseBall=function(iParent, id, ilen, iang, irate){
 
-    		console.log('MAKE PHASE BALL ' + id)
 
 			var phaseBall = document.createElementNS(static_xmlns,"circle");
 			phaseBall.setAttributeNS(null, "id", ""+id);
@@ -467,6 +466,9 @@ define(
 
 			var gParamX=.5
 			var gParamY=.5
+
+            k_maxdur=1000
+
 			window.onmousemove=function(e){
 				gParamX = e.clientX/window.innerWidth;
 				gParamY = e.clientY/window.innerHeight;
@@ -481,7 +483,7 @@ define(
         		player.play(0);
         		setTimeout(function(){
         			player.release(0)
-        		}, gParamX*400);
+        		}, gParamX*k_maxdur);
         	}, 0);
 
             // Drone
@@ -491,7 +493,7 @@ define(
         		player.play(1);
         		setTimeout(function(){
         			player.release(1)
-        		}, gParamX*400);
+        		}, gParamX*k_maxdur);
         	}, 1);
 
             // NoisyFM
@@ -501,7 +503,7 @@ define(
         		player.play(2);
         		setTimeout(function(){
         			player.release(2)
-        		}, gParamX*400);
+        		}, gParamX*k_maxdur);
         	}, 2);
 
             //Dragster
@@ -512,7 +514,7 @@ define(
         		player.play(3);
         		setTimeout(function(){
         			player.release(3)
-        		}, gParamX*400);
+        		}, gParamX*k_maxdur);
         	}, 3);
 
             //PeeperSyllable
@@ -520,10 +522,11 @@ define(
         		msgbox.value=gParamX.toFixed(2);
                 player.setParam(4,1, .75+.05*gParamY);
                 player.setParam(4,2, .5+.25*gParamY);
+                player.setParam(4,4, .1);
         		player.play(4);
         		setTimeout(function(){
         			player.release(4)
-        		}, gParamX*400);
+        		}, gParamX*k_maxdur);
         	}, 4);
 
             // doesn'tmatter
@@ -533,7 +536,7 @@ define(
         		player.play(5);
         		setTimeout(function(){
         			player.release(5)
-        		}, gParamX*400);
+        		}, gParamX*k_maxdur);
         	}, 5);
 
 

@@ -129,7 +129,7 @@ require(
 
 			pd.on("play", function(){
 				player.setSndParam("noteNum", pd.getRingIndex());
-				comm.sendJSONmsg("play", [pd.getNormedRadius(), pd.getAngle(), pd.getRate()]);
+				//comm.sendJSONmsg("play", [pd.getNormedRadius(), pd.getAngle(), pd.getRate()]);
 				comm.sendJSONmsg("play", [.8, 0, 0]);
 				//player.play();
 			});

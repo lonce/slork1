@@ -119,7 +119,7 @@ require(
 			myID=data[0];
 			console.log("Server acknowledged, assigned me this.id = " + myID);
 			personalConfig.set("serverAck");
-			personalConfig.set("soundsLoaded");
+			//personalConfig.set("soundsLoaded");
 
 
 
@@ -171,6 +171,7 @@ require(
 		//-------------------------------------------------------------------------------------
 		comm.registerCallback('play', function(data, src) {
 				gd.addVector(src, data[0], data[1], data[2]);
+				console.log('PLAY!!!')
 		});
 
 		comm.registerCallback('release', function(data, src) {
